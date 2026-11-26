@@ -1,0 +1,21 @@
+SYNTHETIC DOCUMENT FOR DEMONSTRATION. ALL PARTIES ARE FICTIONAL.
+
+TERM LOAN CREDIT AGREEMENT
+
+This TERM LOAN CREDIT AGREEMENT is entered into as of 15 September 2024 by and among Cedar & Pine Health Systems, LLC, a Delaware limited liability company (the "Borrower"), the financial institutions listed on Schedule 2.01 (the "Lenders"), and Granite Point Bank, as administrative agent (in such capacity, the "Administrative Agent").
+
+Section 2.01 Term A Loans. Each Lender severally agrees to make a single term loan to the Borrower on the Closing Date in an aggregate principal amount for all Lenders of Four Hundred Million Dollars ($400,000,000) (the "Term A Facility").
+
+Section 2.07 Repayment. The Borrower shall repay the outstanding principal amount of the Term A Loans in full on 15 September 2030 (the "Maturity Date").
+
+Section 2.09 Interest. The Term A Loans shall bear interest at Daily Simple SOFR plus a margin of 275 basis points per annum.
+
+Section 6.12 Financial Covenants.
+
+(a) Maximum Leverage. As of the end of each fiscal quarter, the ratio of Consolidated Funded Indebtedness to Consolidated EBITDA for the four fiscal quarters then ended shall not exceed four and one-quarter to one.
+
+(b) Minimum Interest Coverage. As of the end of each fiscal quarter, the ratio of Consolidated EBITDA to Consolidated Interest Expense shall be at least 2.50 to 1.00.
+
+Schedule 2.01 — Lenders: Granite Point Bank; Bayview Trust Company; Meridian Credit Partners LP.
+
+Section 9.10 Governing Law. THIS AGREEMENT SHALL BE GOVERNED BY THE LAWS OF THE STATE OF DELAWARE.

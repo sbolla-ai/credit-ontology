@@ -1,0 +1,21 @@
+SYNTHETIC DOCUMENT FOR DEMONSTRATION. ALL PARTIES ARE FICTIONAL.
+
+SENIOR SECURED TERM LOAN AGREEMENT
+
+dated as of July 1, 2025
+
+among TIDEWATER ENERGY PARTNERS, L.P., as Borrower, the several lenders from time to time parties hereto (including Granite Point Bank, N.A. and Meridian Credit Partners LP), and GRANITE POINT BANK, N.A., as Administrative Agent and Collateral Agent.
+
+SECTION 2.1 Term Loans. Each Lender severally agrees to make a term loan to the Borrower on the Closing Date. The aggregate amount of the Term Loans made on the Closing Date shall be $600,000,000.
+
+SECTION 2.3 Maturity. All Term Loans shall mature on July 1, 2031.
+
+SECTION 2.8 Interest Rates. (a) Each Term SOFR Loan shall bear interest at a rate per annum equal to Term SOFR plus 3.00%. (b) Each ABR Loan shall bear interest at ABR plus 2.00%.
+
+SECTION 7.1 Financial Condition Covenants.
+
+(a) Total Net Leverage Ratio. Permit the Total Net Leverage Ratio as at the last day of any period of four consecutive fiscal quarters to exceed 4.50:1.00.
+
+(b) Interest Coverage Ratio. Permit the Interest Coverage Ratio for any period of four consecutive fiscal quarters to be less than 2.25:1.00.
+
+SECTION 10.12 GOVERNING LAW. THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED AND INTERPRETED IN ACCORDANCE WITH, THE LAW OF THE STATE OF TEXAS.

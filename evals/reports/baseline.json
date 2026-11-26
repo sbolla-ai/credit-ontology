@@ -1,0 +1,318 @@
+{
+  "name": "baseline",
+  "extractor": "baseline",
+  "model": null,
+  "generated": "2026-11-26 04:13 UTC",
+  "docs": 8,
+  "fields": {
+    "counts": {
+      "correct": 70,
+      "wrong": 0,
+      "missed": 9,
+      "hallucinated": 0,
+      "correct_absent": 10
+    },
+    "precision": 1.0,
+    "recall": 0.886,
+    "f1": 0.94,
+    "per_field": {
+      "effective_date": {
+        "correct": 3,
+        "total_gold": 3
+      },
+      "borrower": {
+        "correct": 7,
+        "total_gold": 8
+      },
+      "amends_agreement_date": {
+        "correct": 3,
+        "total_gold": 3
+      },
+      "\u0394 commitment_amount": {
+        "correct": 1,
+        "total_gold": 1
+      },
+      "\u0394 maturity_date": {
+        "correct": 1,
+        "total_gold": 1
+      },
+      "\u0394 margin_bps": {
+        "correct": 1,
+        "total_gold": 1
+      },
+      "\u0394 max_leverage_ratio": {
+        "correct": 2,
+        "total_gold": 2
+      },
+      "\u0394 min_interest_coverage_ratio": {
+        "correct": 0,
+        "total_gold": 1
+      },
+      "agreement_date": {
+        "correct": 5,
+        "total_gold": 5
+      },
+      "administrative_agent": {
+        "correct": 5,
+        "total_gold": 5
+      },
+      "lenders": {
+        "correct": 0,
+        "total_gold": 5
+      },
+      "facility_type": {
+        "correct": 5,
+        "total_gold": 5
+      },
+      "commitment_amount": {
+        "correct": 5,
+        "total_gold": 5
+      },
+      "currency": {
+        "correct": 5,
+        "total_gold": 5
+      },
+      "maturity_date": {
+        "correct": 5,
+        "total_gold": 5
+      },
+      "benchmark": {
+        "correct": 5,
+        "total_gold": 5
+      },
+      "margin_bps": {
+        "correct": 5,
+        "total_gold": 5
+      },
+      "max_leverage_ratio": {
+        "correct": 4,
+        "total_gold": 5
+      },
+      "min_interest_coverage_ratio": {
+        "correct": 3,
+        "total_gold": 4
+      },
+      "governing_law": {
+        "correct": 5,
+        "total_gold": 5
+      }
+    },
+    "errors": [
+      {
+        "doc": "AM-003",
+        "field": "changes.min_interest_coverage_ratio",
+        "outcome": "missed",
+        "pred": null,
+        "gold": 2.0,
+        "confidence": 1.0,
+        "accepted": true
+      },
+      {
+        "doc": "CA-001",
+        "field": "lenders",
+        "outcome": "missed",
+        "pred": null,
+        "gold": [
+          "Harborline Bank, N.A.",
+          "Summit Ridge Capital LLC",
+          "Bayview Trust Company"
+        ],
+        "confidence": 1.0,
+        "accepted": true
+      },
+      {
+        "doc": "CA-002",
+        "field": "borrower",
+        "outcome": "missed",
+        "pred": null,
+        "gold": "Cedar & Pine Health Systems, LLC",
+        "confidence": 1.0,
+        "accepted": true
+      },
+      {
+        "doc": "CA-002",
+        "field": "lenders",
+        "outcome": "missed",
+        "pred": null,
+        "gold": [
+          "Granite Point Bank",
+          "Bayview Trust Company",
+          "Meridian Credit Partners LP"
+        ],
+        "confidence": 1.0,
+        "accepted": true
+      },
+      {
+        "doc": "CA-002",
+        "field": "max_leverage_ratio",
+        "outcome": "missed",
+        "pred": null,
+        "gold": 4.25,
+        "confidence": 1.0,
+        "accepted": true
+      },
+      {
+        "doc": "CA-002",
+        "field": "min_interest_coverage_ratio",
+        "outcome": "missed",
+        "pred": null,
+        "gold": 2.5,
+        "confidence": 1.0,
+        "accepted": true
+      },
+      {
+        "doc": "CA-003",
+        "field": "lenders",
+        "outcome": "missed",
+        "pred": null,
+        "gold": [
+          "Summit Ridge Capital LLC"
+        ],
+        "confidence": 1.0,
+        "accepted": true
+      },
+      {
+        "doc": "CA-004",
+        "field": "lenders",
+        "outcome": "missed",
+        "pred": null,
+        "gold": [
+          "Nordhaven Bank AG",
+          "Bayview Trust Company"
+        ],
+        "confidence": 1.0,
+        "accepted": true
+      },
+      {
+        "doc": "CA-005",
+        "field": "lenders",
+        "outcome": "missed",
+        "pred": null,
+        "gold": [
+          "Granite Point Bank, N.A.",
+          "Meridian Credit Partners LP"
+        ],
+        "confidence": 1.0,
+        "accepted": true
+      }
+    ]
+  },
+  "questions": {
+    "accuracy": 0.636,
+    "wrong_answers_flagged": 4,
+    "wrong_answers_silent": 0,
+    "results": [
+      {
+        "id": "Q01",
+        "question": "Northwind's maximum leverage ratio as of 2025-06-30",
+        "expected": 3.5,
+        "got": 3.5,
+        "correct": true,
+        "warned": false
+      },
+      {
+        "id": "Q02",
+        "question": "Northwind's maximum leverage ratio as of 2025-12-31 (after the First Amendment)",
+        "expected": 4.0,
+        "got": 4.0,
+        "correct": true,
+        "warned": false
+      },
+      {
+        "id": "Q03",
+        "question": "Northwind's maximum leverage ratio as of 2026-06-30 (after the Second Amendment)",
+        "expected": 3.75,
+        "got": 3.75,
+        "correct": true,
+        "warned": false
+      },
+      {
+        "id": "Q04",
+        "question": "Northwind's total commitments as of 2026-01-01",
+        "expected": 300000000,
+        "got": 300000000,
+        "correct": true,
+        "warned": false
+      },
+      {
+        "id": "Q05",
+        "question": "Northwind's maturity date as of 2026-06-30",
+        "expected": "2030-06-30",
+        "got": "2030-06-30",
+        "correct": true,
+        "warned": false
+      },
+      {
+        "id": "Q06",
+        "question": "Tidewater's minimum interest coverage as of 2026-06-30",
+        "expected": 2.0,
+        "got": 2.25,
+        "correct": false,
+        "warned": true
+      },
+      {
+        "id": "Q07",
+        "question": "Tidewater's margin (bps) as of 2026-01-15, before its amendment",
+        "expected": 300,
+        "got": 300,
+        "correct": true,
+        "warned": false
+      },
+      {
+        "id": "Q08",
+        "question": "Orion's minimum interest coverage ratio (it has a fixed-charge covenant, not an interest-coverage one)",
+        "expected": null,
+        "got": null,
+        "correct": true,
+        "warned": true
+      },
+      {
+        "id": "Q09",
+        "question": "Cedar & Pine's maximum leverage ratio",
+        "expected": 4.25,
+        "got": null,
+        "correct": false,
+        "warned": true
+      },
+      {
+        "id": "Q10",
+        "question": "Lenders with exposure to more than one borrower",
+        "expected": [
+          "bayview trust",
+          "granite point bank",
+          "meridian credit partners",
+          "summit ridge capital"
+        ],
+        "got": [],
+        "correct": false,
+        "warned": true
+      },
+      {
+        "id": "Q11",
+        "question": "Borrowers whose maximum leverage ratio is above 4.0x as of 2026-06-30",
+        "expected": [
+          "cedar pine health systems",
+          "tidewater energy partners"
+        ],
+        "got": [
+          "tidewater energy partners"
+        ],
+        "correct": false,
+        "warned": true
+      }
+    ]
+  },
+  "integrity": {
+    "unsupported_facts_in_ontology": 0,
+    "wrong_facts_in_ontology": 0,
+    "fields_sent_to_review": 0
+  },
+  "cost": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usd_total": null,
+    "usd_per_doc": null,
+    "latency_ms_p50": 2.0
+  },
+  "gate_failures": []
+}

@@ -1,0 +1,11 @@
+SYNTHETIC DOCUMENT FOR DEMONSTRATION. ALL PARTIES ARE FICTIONAL.
+
+FIRST AMENDMENT
+
+FIRST AMENDMENT, dated as of March 31, 2026, to the SENIOR SECURED TERM LOAN AGREEMENT dated as of July 1, 2025, among Tidewater Energy Partners LP, the Lenders party thereto and Granite Point Bank, N.A., as Administrative Agent.
+
+1. Interest Coverage. Section 7.1(b) of the Loan Agreement is hereby amended by deleting the ratio "2.25:1.00" and inserting in lieu thereof "2.00:1.00".
+
+2. Pricing. Section 2.8(a) of the Loan Agreement is hereby amended by replacing "Term SOFR plus 3.00%" with "Term SOFR plus 3.25%".
+
+3. Conditions. This Amendment shall become effective on the date first written above upon receipt by the Administrative Agent of counterparts executed by the Required Lenders.

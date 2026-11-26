@@ -1,0 +1,22 @@
+SYNTHETIC DOCUMENT FOR DEMONSTRATION. ALL PARTIES ARE FICTIONAL.
+
+CREDIT AGREEMENT
+
+Dated as of January 10, 2025
+
+ORION FABRICATION CORP., as Borrower
+SUMMIT RIDGE CAPITAL LLC, as Administrative Agent and sole Lender
+
+1. THE FACILITY. The Lender hereby establishes in favor of the Borrower a revolving credit facility in a maximum principal amount of $75,000,000 (the "Revolving Commitment"), available until December 31, 2028 (the "Termination Date"), on which date all outstanding Revolving Loans shall be due and payable.
+
+2. INTEREST. Revolving Loans shall accrue interest at Term SOFR plus 1.75% per annum.
+
+3. FINANCIAL COVENANTS. So long as any Obligation remains outstanding:
+
+(a) Leverage. The Borrower will maintain, as of the end of each fiscal quarter, a Total Leverage Ratio of not more than 3.00 to 1.00.
+
+(b) Fixed Charge Coverage. The Borrower will maintain, as of the end of each fiscal quarter, a Fixed Charge Coverage Ratio of not less than 1.25 to 1.00.
+
+(c) Capital Expenditures. Capital Expenditures shall not exceed $12,000,000 in any fiscal year.
+
+4. GOVERNING LAW. This Agreement and the other Loan Documents shall be governed by the laws of the State of New York.

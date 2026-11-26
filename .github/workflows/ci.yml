@@ -1,0 +1,30 @@
+name: tests-and-eval-gate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e ".[dev,anthropic]"
+      - name: Tests
+        run: pytest -q
+      - name: Baseline eval (integrity gates)
+        run: python evals/run_evals.py
+      - name: LLM eval (integrity + quality gates; runs only when the API key secret is set)
+        if: ${{ env.ANTHROPIC_API_KEY != '' }}
+        run: python evals/run_evals.py --extractor llm --provider anthropic
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: eval-reports
+          path: evals/reports/

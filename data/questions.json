@@ -1,0 +1,13 @@
+[
+  {"id": "Q01", "question": "Northwind's maximum leverage ratio as of 2025-06-30", "borrower": "northwind logistics", "field": "max_leverage_ratio", "as_of": "2025-06-30", "answer": 3.5},
+  {"id": "Q02", "question": "Northwind's maximum leverage ratio as of 2025-12-31 (after the First Amendment)", "borrower": "northwind logistics", "field": "max_leverage_ratio", "as_of": "2025-12-31", "answer": 4.0},
+  {"id": "Q03", "question": "Northwind's maximum leverage ratio as of 2026-06-30 (after the Second Amendment)", "borrower": "northwind logistics", "field": "max_leverage_ratio", "as_of": "2026-06-30", "answer": 3.75},
+  {"id": "Q04", "question": "Northwind's total commitments as of 2026-01-01", "borrower": "northwind logistics", "field": "commitment_amount", "as_of": "2026-01-01", "answer": 300000000},
+  {"id": "Q05", "question": "Northwind's maturity date as of 2026-06-30", "borrower": "northwind logistics", "field": "maturity_date", "as_of": "2026-06-30", "answer": "2030-06-30"},
+  {"id": "Q06", "question": "Tidewater's minimum interest coverage as of 2026-06-30", "borrower": "tidewater energy partners", "field": "min_interest_coverage_ratio", "as_of": "2026-06-30", "answer": 2.0},
+  {"id": "Q07", "question": "Tidewater's margin (bps) as of 2026-01-15, before its amendment", "borrower": "tidewater energy partners", "field": "margin_bps", "as_of": "2026-01-15", "answer": 300},
+  {"id": "Q08", "question": "Orion's minimum interest coverage ratio (it has a fixed-charge covenant, not an interest-coverage one)", "borrower": "orion fabrication", "field": "min_interest_coverage_ratio", "as_of": "2026-06-30", "answer": null},
+  {"id": "Q09", "question": "Cedar & Pine's maximum leverage ratio", "borrower": "cedar pine health systems", "field": "max_leverage_ratio", "as_of": "2026-06-30", "answer": 4.25},
+  {"id": "Q10", "question": "Lenders with exposure to more than one borrower", "type": "lenders_multi_borrower", "answer": ["bayview trust", "granite point bank", "meridian credit partners", "summit ridge capital"], "note": "Harborline is agent (not lender) on Lumen, so it lends to only one borrower. Granite Point only counts twice if 'Granite Point Bank' and 'Granite Point Bank, N.A.' are resolved to one entity."},
+  {"id": "Q11", "question": "Borrowers whose maximum leverage ratio is above 4.0x as of 2026-06-30", "type": "borrowers_where", "field": "max_leverage_ratio", "op": ">", "value": 4.0, "as_of": "2026-06-30", "answer": ["cedar pine health systems", "tidewater energy partners"]}
+]

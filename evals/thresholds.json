@@ -1,0 +1,12 @@
+{
+  "_comment": "Integrity gates are absolute and apply to every extractor. Quality gates apply to LLM runs (the regex baseline is reported, not gated, because its job is to set the bar).",
+  "integrity": {
+    "unsupported_facts_in_ontology_max": 0,
+    "wrong_facts_in_ontology_max": 0,
+    "silent_wrong_answers_max": 0
+  },
+  "quality_llm": {
+    "field_f1_min": 0.9,
+    "question_accuracy_min": 0.9
+  }
+}

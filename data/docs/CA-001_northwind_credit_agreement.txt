@@ -1,0 +1,43 @@
+SYNTHETIC DOCUMENT FOR DEMONSTRATION. ALL PARTIES ARE FICTIONAL.
+
+REVOLVING CREDIT AGREEMENT
+
+dated as of March 15, 2024
+
+among
+
+NORTHWIND LOGISTICS, INC.,
+as the Borrower,
+
+THE LENDERS FROM TIME TO TIME PARTY HERETO,
+
+and
+
+HARBORLINE BANK, N.A.,
+as Administrative Agent
+
+ARTICLE I — DEFINITIONS
+
+"Aggregate Commitments" means the Commitments of all the Lenders, which on the Closing Date equal $250,000,000.
+
+"Applicable Rate" means 2.25% per annum for Term SOFR Loans and 1.25% per annum for Base Rate Loans.
+
+"Maturity Date" means June 30, 2029, or, if such day is not a Business Day, the immediately preceding Business Day.
+
+"Lenders" means Harborline Bank, N.A., Summit Ridge Capital LLC and Bayview Trust Company, together with their successors and permitted assigns.
+
+ARTICLE II — THE COMMITMENTS
+
+2.01 Revolving Loans. Subject to the terms and conditions set forth herein, each Lender severally agrees to make revolving loans to the Borrower from time to time in an aggregate amount not to exceed such Lender's Commitment.
+
+2.08 Interest. Each Term SOFR Loan shall bear interest on the outstanding principal amount thereof at a rate per annum equal to Term SOFR for the applicable Interest Period plus the Applicable Rate.
+
+ARTICLE VII — FINANCIAL COVENANTS
+
+7.11(a) Consolidated Total Leverage Ratio. The Borrower shall not permit the Consolidated Total Leverage Ratio as of the last day of any fiscal quarter to be greater than 3.50:1.00.
+
+7.11(b) Consolidated Interest Coverage Ratio. The Borrower shall not permit the Consolidated Interest Coverage Ratio as of the last day of any fiscal quarter to be less than 3.00:1.00.
+
+ARTICLE X — MISCELLANEOUS
+
+10.14 Governing Law. This Agreement shall be governed by, and construed in accordance with, the law of the State of New York.

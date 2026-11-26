@@ -1,0 +1,7 @@
+{
+  "_comment": "USD per million tokens. Left null on purpose: copy current prices from each provider's pricing page before comparing cost. Cost columns show 'n/a' until filled.",
+  "prices_per_mtok": {
+    "claude-sonnet-5-5": {"input": null, "output": null},
+    "claude-haiku-5-5": {"input": null, "output": null}
+  }
+}
